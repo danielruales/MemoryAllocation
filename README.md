@@ -1,1 +1,2 @@
 # MemoryAllocation
+C++ program that emulate the operating system’s responsibility of allocating memory to certain programs. Allows the user to “run” programs that require chunks of this memory for some period of time. It should also allow the user to “kill” programs (i.e., “Ctrl-c” or “kill -9” in most OSs) that are in progress. The pages used by programs that are killed can then be re-used for future programs.
